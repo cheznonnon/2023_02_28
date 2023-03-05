@@ -25,7 +25,7 @@ Project Nonnon
 
 		Mac
 			tweak Sandbox
-			+ search with "macOS xattr quarantine"
+			+ use terminal with "xattr -dr com.apple.quarantine ./AppName"
 
 			+ [?] : Apple's "notarization" is needed
 			+ I have no money, no credit card, I don't wanna open my real name
@@ -127,7 +127,7 @@ Project Nonnon
 
 		Mac
 			サンドボックスを調整するニャ
-			+ "macOS xattr quarantine" で検索するニャ
+			+ ターミナルで "xattr -dr com.apple.quarantine ./アプリ名" を実行するニャ
 
 			+ [?] : Apple による「ノータライズ」という認証手続きがいるニャ
 			+ 吾輩は貧乏でクレジットカードもないし実名を公表したくもないニャ

@@ -12,6 +12,55 @@
 Change Log
 
 
+2023/02/28 #1 : 2023/03/06
+
+
+BUGFIX
+
+
+	Marie for Mac
+		Animated GIF Support : another image is loaded
+			OLD : integrity will be lost
+			NEW : fixed
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Whole Grab/Preview checkboxes
+			OLD : internal confusion
+			NEW : fixed
+			[!] : happens when you turn on/off after grabbed
+		Multi-Layer : Grabber : basic filters
+			OLD : sync, frame will be auto-moved
+			NEW : no sync
+		Multi-Layer : Layer Window : Menu
+			OLD : layer names will be broken
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/draw.c
+		n_mac_draw_box_invert()
+			NEW : placeholder for future use
+			[!] : currently call n_mac_draw_box() only
+
+	LINE MASHER 2 for Mac
+		Starting
+			NEW : transition and sound available
+	Pen Trainer for Mac
+		Canvas
+			OLD : control color
+			NEW : white and black
+		Pen Size
+			OLD : 12 px
+			NEW : font size / 10
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2023/02/28
 
 
